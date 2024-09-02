@@ -32,3 +32,4 @@ int main()
 	s2.display();
 	return 0;
 }
+//program executed successfully
