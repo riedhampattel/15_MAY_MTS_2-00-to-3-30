@@ -131,7 +131,7 @@ nav a.active,nav a:hover
 }
 .position::before
 {
-    content: "software engineer";
+    content: "";
     animation: words 20s infinite;
 }
 .position::after
@@ -218,7 +218,6 @@ nav a.active,nav a:hover
         margin-left: 135px;
         margin-top: 290px;
         border: 5px solid brown;
-        color: white;
         padding-left: 1.2rem;
         padding-right: 1.2rem;
         padding-top: 0.7rem;
