@@ -232,3 +232,109 @@ nav a.active,nav a:hover
         display: none;
     }
 }
+.service
+{
+    margin-top: 6rem;
+}
+.service i
+{
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
+.service li
+{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: 0.5s ease;
+}
+.service li:hover
+{
+    text-shadow: 0px 0px 25px brown;
+    cursor: pointer;
+}
+.skill-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 5rem;
+    margin-left: 9rem;
+    margin-right: 5rem;
+}
+.skill-container div
+{
+    border: 1px solid brown;
+    border-radius: 50px;
+    height: 14rem;
+    width: 12rem;
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 15px brown;
+}
+.skill-container div h3
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.skill-container div p
+{
+    width: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.skill-container div:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgb(0, 217, 255);
+    border: 1px solid rgb(0, 217, 255);
+}
+.education
+{
+    border: 1px solid brown;
+    margin-top: 3rem;
+}
+.education td,th
+{
+    border: 1px solid brown;
+    padding: 1rem;
+}
+.contact
+{
+    margin-top: 4rem;
+}
+.contact i
+{
+    color: white;
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 25rem;
+}
+.user
+{
+    position: absolute;
+    margin-top: -13.8rem;
+    margin-left: 5rem;
+}
+.user a
+{
+    color: white;
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 25rem;
+}
+.rule
+{
+    width: 65rem;
+    height: 1px;
+    background-color: white;
+    margin-top: 3rem;
+}
+.map
+{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
